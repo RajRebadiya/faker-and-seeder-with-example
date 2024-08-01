@@ -9,7 +9,7 @@ class CategoryController extends Controller
 {
     //
     public function index(){
-       $user = Category::find(54)->products;
+       $user = Category::find(60)->products;
        return $user;
        foreach ($user as $value) {
         # code...
